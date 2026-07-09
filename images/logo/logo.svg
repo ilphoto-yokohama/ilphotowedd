@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-labelledby="title">
+  <title id="title">il PhotoWedd ロゴ</title>
+  <g transform="translate(0,10)">
+    <path d="M30 5c0 0 18 12 18 30 0 13.5-9 23.5-18 27-9-3.5-18-13.5-18-27 0-18 18-30 18-30z"
+          fill="none" stroke="#2E5BFF" stroke-width="1.6"/>
+    <line x1="30" y1="62" x2="30" y2="70" stroke="#2E5BFF" stroke-width="1.6"/>
+  </g>
+  <text x="64" y="38" font-family="Poppins, sans-serif" font-size="26" font-weight="600" fill="#222222">il PhotoWedd</text>
+  <text x="64" y="58" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#6B6B6B">イルフォトウェディング</text>
+</svg>
