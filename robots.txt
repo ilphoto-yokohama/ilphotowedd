@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /thanks.html
 
-Sitemap: https://ilphotowedding.photo-official.net/sitemap.xml
+Sitemap: https://ilphoto-yokohama.github.io/ilphotowedd/sitemap.xml
