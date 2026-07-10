@@ -551,6 +551,21 @@ select:focus-visible {
 .c-studio-item__title { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
 .c-studio-item__text { font-size: 13px; color: var(--color-text-sub); line-height: 1.8; }
 
+/* ---------- Story（ブランドストーリー） ---------- */
+.c-story__body {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+.c-story__body p {
+  font-size: 14.5px;
+  color: var(--color-text-sub);
+  line-height: 2.1;
+  margin-bottom: 22px;
+}
+.c-story__body p:last-child { margin-bottom: 0; }
+.c-story__body strong { color: var(--color-primary); font-weight: 700; }
+
 /* ---------- Solution（解決セクションの写真） ---------- */
 .c-solution__img {
   max-width: 720px;
