@@ -115,6 +115,17 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
   let hasStartedForm = false;
   let isSubmitting = false;
 
+  // 予約条件：撮影日はお申込みから30日以内 → 日付選択を本日〜30日後に制限
+  const dateInput = document.getElementById('f-date');
+  if (dateInput) {
+    const toDateString = (d) => d.toISOString().split('T')[0];
+    const today = new Date();
+    const limit = new Date();
+    limit.setDate(limit.getDate() + 30);
+    dateInput.min = toDateString(today);
+    dateInput.max = toDateString(limit);
+  }
+
   // 入力開始時に一度だけ form_start を計測
   form.addEventListener(
     'input',

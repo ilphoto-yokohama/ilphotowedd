@@ -920,6 +920,12 @@ select:focus-visible {
 .c-form__textarea.is-error {
   border-color: #E0433B;
 }
+.c-form__hint {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--color-text-sub);
+}
+
 .c-form__error {
   display: none;
   margin-top: 6px;
